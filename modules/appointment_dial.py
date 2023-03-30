@@ -46,7 +46,7 @@ class Ui_Dialog_appointment(object):
         self.gridLayout.addWidget(self.pushButton, 5, 0, 1, 1)
         self.plainTextEdit = QtWidgets.QPlainTextEdit(self.widget)
         self.plainTextEdit.setReadOnly(True)
-        self.plainTextEdit.setBackgroundVisible(True)
+        self.plainTextEdit.setBackgroundVisible(False)
         self.plainTextEdit.setObjectName("plainTextEdit")
         self.gridLayout.addWidget(self.plainTextEdit, 5, 1, 1, 1)
 
